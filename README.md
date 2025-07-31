@@ -27,9 +27,10 @@ A web application for reporting, viewing, and matching missing person cases, sup
 
 - **Backend:** PHP (OOP), PDO, MySQL
 - **Frontend:** HTML, CSS (Bootstrap), JavaScript (jQuery, Typed.js, Popper.js)
-- **Email:** PHP mail functionality via custom `Email` class
+- **PHPMailer:** For sending emails
 - **DataTables:** For enhanced table filtering and pagination
 - **Session Management:** User authentication and roles
+- **FPDF:** For generating PDF reports
 
 ## Installation
 
@@ -41,11 +42,11 @@ A web application for reporting, viewing, and matching missing person cases, sup
 
 2. **Set Up Database:**
    - Create a MySQL database named `missing_persons_db`.
-   - Import the provided SQL schema (if available).
+   - Import the provided SQL schema in database/missing_persons_db.sql.
    - Configure `config/DatabaseConfiguration.php` with your local database credentials.
 
 3. **Install Dependencies:**
-   - Ensure PHP and MySQL are installed.
+   - Ensure PHP, and MySQL are installed.
    - No additional package manager required; all dependencies are included via CDN or project files.
 
 4. **Start a Local Server:**
