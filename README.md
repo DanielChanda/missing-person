@@ -58,9 +58,9 @@ A web application for reporting, viewing, and matching missing person cases, sup
 
 ## Usage
 
-- **Login/Register:** Access the app via the login page.
+- **index.php:** Access the app via the login page.
 - **View Cases:** Browse or search cases of missing persons.
-- **Report Case:** Submit a new missing or found report.
+- **Report Case:** Submit a new missing or found report (only when you are a registered user | no registered can only view or search).
 - **Admin Features:** Match reports and mark cases as found or resolved.
 - **Receive Notifications:** Get email updates on matched cases.
 
